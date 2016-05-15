@@ -11,7 +11,7 @@ Bob.prototype.hey = function(input) {
     return 'Fine. Be that way!'
   }
   else {
-    return "Whatever."
+    return 'Whatever.'
   }
 };
 
