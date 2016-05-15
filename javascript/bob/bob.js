@@ -10,9 +10,7 @@ Bob.prototype.hey = function(input) {
   else if(!(/\S/.test(input))){
     return 'Fine. Be that way!'
   }
-  else {
-    return 'Whatever.'
-  }
+  return 'Whatever.'
 };
 
 function checkIfUpcase(input){
