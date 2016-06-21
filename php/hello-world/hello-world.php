@@ -1,9 +1,7 @@
 <?php
 
-function helloWorld($name){
-    return "Hello " . $name;
+function helloWorld($name = "World"){
+  return "Hello, " . $name . "!";
 }
-
-echo helloWorld("chelsea")
 
 ?>
